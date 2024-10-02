@@ -42,7 +42,7 @@
     <div class="main-section">
       <div class="left-section">
         <div class="icon-list">
-          <div class="icon" onclick="openTab('Shirts')">
+          <div class="icon active" onclick="openTab('Shirts')">
             <img
               src="./assets/style.png"
               alt="Shirts Icon"
@@ -84,10 +84,10 @@
           <!-- Add more icons for other categories -->
         </div>
         <div class="items-list">
-          <div class="tabcontent" id="Shirts">
+          <div class="tabcontent active" id="Shirts">
             <img
               src="shirt1.jpg"
-              class="shirt"
+              class="shirt selected"
               onclick="selectShirt('shirt1.jpg')"
               alt="Shirt 1"
             />
@@ -364,7 +364,7 @@
         <div class="item-display">
           <!-- This section will show the larger version of the selected product -->
 
-          <img id="selected-shirt" src="shirt1.png" alt="Selected Shirt" />
+          <img id="selected-shirt" src="assets/Shirts/shirt1.png" alt="Selected Shirt" />
           <div id="text-display" style="position: absolute"></div>
 
           <!-- Draggable and Resizable Logo with Handles -->
@@ -1276,6 +1276,7 @@
           document.onmousemove = null;
         }
       }
+
     </script>
   </body>
 </html>
