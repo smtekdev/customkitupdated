@@ -1,0 +1,1281 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+
+    <link rel="icon" type="image/png" href="./assets/logo.png">
+
+
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- Navbar starts -->
+
+    <nav class="navbar">
+      <!-- Logo Section -->
+      <div class="logo">
+        <img src="./assets/logo.png" alt="Logo" />
+      </div>
+      <!-- Navigation Links -->
+      <ul class="nav-links">
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">DIRECTORY</a></li>
+        <li><a href="#">SHOP</a></li>
+        <li><a href="#">CUSTOMIZABLE UNIFORMS</a></li>
+      </ul>
+      <!-- Login Button -->
+      <button class="login-btn">Login / Register</button>
+    </nav>
+
+    <!-- Navbar Ends -->
+
+    <!-- MAIN SECTION STARTS FROM HERE -->
+
+    <div class="main-section">
+      <div class="left-section">
+        <div class="icon-list">
+          <div class="icon" onclick="openTab('Shirts')">
+            <img
+              src="./assets/style.png"
+              alt="Shirts Icon"
+              class="tab-icon"
+              width="50px"
+            />
+
+            <span class="tab-label"></span>
+          </div>
+          <div class="icon" onclick="openTab('Logos')">
+            <img
+              src="./assets/c-logo.png"
+              alt="Logos Icon"
+              class="tab-icon"
+              width="50px"
+            />
+            <span class="tab-label"></span>
+          </div>
+          <div class="icon" onclick="openTab('Text')">
+            <img
+              src="./assets/text.png"
+              alt="Text Icon"
+              class="tab-icon"
+              width="50px"
+            />
+            <span class="tab-label"></span>
+          </div>
+
+          <div class="icon" onclick="openTab('Color')">
+            <img
+              src="./assets/colors.png"
+              alt="Color Icon"
+              class="tab-icon"
+              width="50px"
+            />
+            <span class="tab-label"></span>
+          </div>
+
+          <!-- Add more icons for other categories -->
+        </div>
+        <div class="items-list">
+          <div class="tabcontent" id="Shirts">
+            <img
+              src="shirt1.jpg"
+              class="shirt"
+              onclick="selectShirt('shirt1.jpg')"
+              alt="Shirt 1"
+            />
+            <img
+              src="shirt2.jpg"
+              class="shirt"
+              onclick="selectShirt('shirt2.jpg')"
+              alt="Shirt 2"
+            />
+            <img
+              src="shirt3.jpg"
+              class="shirt"
+              onclick="selectShirt('shirt3.jpg')"
+              alt="Shirt 3"
+            />
+
+            <img
+              src="shirt4.jpg"
+              class="shirt"
+              onclick="selectShirt('shirt4.jpg')"
+              alt="Shirt 4"
+            />
+
+            <img
+              src="shirt5.jpg"
+              class="shirt"
+              onclick="selectShirt('shirt5.jpg')"
+              alt="Shirt 5"
+            />
+
+            <img
+              src="shirt6.jpg"
+              class="shirt"
+              onclick="selectShirt('shirt6.jpg')"
+              alt="Shirt 6"
+            />
+
+            <img
+              src="shirt7.jpg"
+              class="shirt"
+              onclick="selectShirt('shirt7.jpg')"
+              alt="Shirt 7"
+            />
+
+            <img
+              src="shirt8.jpg"
+              class="shirt"
+              onclick="selectShirt('shirt8.jpg')"
+              alt="Shirt 8"
+            />
+
+            <img
+              src="shirt9.jpg"
+              class="shirt"
+              onclick="selectShirt('shirt9.jpg')"
+              alt="Shirt 9"
+            />
+
+            <img
+              src="shirt10.png"
+              class="shirt"
+              onclick="selectShirt('shirt10.png')"
+              alt="Shirt 10"
+            />
+
+            <img
+              src="shirt11.png"
+              class="shirt"
+              onclick="selectShirt('shirt11.png')"
+              alt="Shirt 11"
+            />
+
+            <img
+              src="shirt12.png"
+              class="shirt"
+              onclick="selectShirt('shirt12.png')"
+              alt="Shirt 12"
+            />
+
+            <img
+              src="shirt13.png"
+              class="shirt"
+              onclick="selectShirt('shirt12.png')"
+              alt="Shirt 13"
+            />
+
+            <img
+              src="shirt14.png"
+              class="shirt"
+              onclick="selectShirt('shirt12.png')"
+              alt="Shirt 14"
+            />
+
+            <img
+              src="shirt15.png"
+              class="shirt"
+              onclick="selectShirt('shirt12.png')"
+              alt="Shirt 15"
+            />
+
+            <img
+              src="shirt16.png"
+              class="shirt"
+              onclick="selectShirt('shirt16.png')"
+              alt="Shirt 16"
+            />
+
+            <img
+              src="shirt17.png"
+              class="shirt"
+              onclick="selectShirt('shirt17.png')"
+              alt="Shirt 17"
+            />
+
+            <img
+              src="shirt18.png"
+              class="shirt"
+              onclick="selectShirt('shirt18.png')"
+              alt="Shirt 18"
+            />
+          </div>
+
+          <div class="tabcontent" id="Logos" style="display: none">
+            <img
+              src="p-logo1.png"
+              class="logo"
+              onclick="selectLogo('p-logo1.png')"
+              alt="Logo 1"
+            />
+
+            <img
+              src="p-logo2.png"
+              class="logo"
+              onclick="selectLogo('p-logo2.png')"
+              alt="Logo 2"
+            />
+
+            <img
+              src="p-logo3.png"
+              class="logo"
+              onclick="selectLogo('p-logo3.png')"
+              alt="Logo 3"
+            />
+
+            <img
+              src="p-logo4.png"
+              class="logo"
+              onclick="selectLogo('p-logo4.png')"
+              alt="Logo 4"
+            />
+
+            <img
+              src="p-logo5.png"
+              class="logo"
+              onclick="selectLogo('p-logo5.png')"
+              alt="Logo 5"
+            />
+
+            <img
+              src="p-logo6.png"
+              class="logo"
+              onclick="selectLogo('p-logo6.png')"
+              alt="Logo 6"
+            />
+
+            <img
+              src="p-logo7.png"
+              class="logo"
+              onclick="selectLogo('p-logo7.png')"
+              alt="Logo 7"
+            />
+
+            <img
+              src="p-logo8.png"
+              class="logo"
+              onclick="selectLogo('p-logo8.png')"
+              alt="Logo 8"
+            />
+
+            <img
+              src="p-logo9.png"
+              class="logo"
+              onclick="selectLogo('p-logo9.png')"
+              alt="Logo 9"
+            />
+
+            <img
+              src="p-logo10.png"
+              class="logo"
+              onclick="selectLogo('p-logo10.png')"
+              alt="Logo 10"
+            />
+
+            <img
+              src="p-logo11.png"
+              class="logo"
+              onclick="selectLogo('p-logo11.png')"
+              alt="Logo 11"
+            />
+
+            <img
+              src="p-logo12.png"
+              class="logo"
+              onclick="selectLogo('p-logo12.png')"
+              alt="Logo 12"
+            />
+
+            <img
+              src="p-logo13.png"
+              class="logo"
+              onclick="selectLogo('p-logo13.png')"
+              alt="Logo 13"
+            />
+
+            <img
+              src="p-logo14.png"
+              class="logo"
+              onclick="selectLogo('p-logo14.png')"
+              alt="Logo 14"
+            />
+
+            <img
+              src="p-logo15.png"
+              class="logo"
+              onclick="selectLogo('p-logo15.png')"
+              alt="Logo 15"
+            />
+
+            <img
+              src="p-logo16.png"
+              class="logo"
+              onclick="selectLogo('p-logo16.png')"
+              alt="Logo 16"
+            />
+
+            <img
+              src="p-logo17.png"
+              class="logo"
+              onclick="selectLogo('p-logo17.png')"
+              alt="Logo 17"
+            />
+
+            <img
+              src="p-logo18.png"
+              class="logo"
+              onclick="selectLogo('p-logo18.png')"
+              alt="Logo 18"
+            />
+          </div>
+
+          <div class="tabcontent" id="Text" style="display: none">
+            <input
+              type="text"
+              id="customText"
+              placeholder="Enter your text"
+              oninput="updateText()"
+            />
+          </div>
+
+          <div class="tabcontent" id="Color" style="display: none">
+            <input
+              type="color"
+              id="colorPicker"
+              onchange="updateColor(this.value)"
+            />
+          </div>
+        </div>
+
+        <!-- This section will dynamically show items (product thumbnails) when an icon is clicked -->
+      </div>
+
+      <!-- Right Section -->
+      <div class="right-section">
+        <div class="item-display">
+          <!-- This section will show the larger version of the selected product -->
+
+          <img id="selected-shirt" src="shirt1.png" alt="Selected Shirt" />
+          <div id="text-display" style="position: absolute"></div>
+
+          <!-- Draggable and Resizable Logo with Handles -->
+          <div id="logo-container" class="resizable-draggable">
+            <img id="selected-logo" src="" alt="" class="draggable" />
+            <div class="resizing-handle top-left"></div>
+            <div class="resizing-handle top-right"></div>
+            <div class="resizing-handle bottom-left"></div>
+            <div class="resizing-handle bottom-right"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MAIN SECTION ENDS HERE -->
+
+    <!-- FORM SECTION STARTS FROM HERE -->
+
+    <div class="head-box">
+      <p class="mainheading">CUSTOM SOCCER KIT</p>
+
+      <div class="m-pr">
+        <p class="s-pr">$39.00</p>
+        <img src="./assets/mystars.png" style="width: 100px" alt="" />
+        <p class="str-r">5 reviews</p>
+      </div>
+
+      <!-- <p class="size-guide">Size Guide</p> -->
+    </div>
+
+    <form class="flex-form">
+      <!-- Left Column -->
+      <div class="form-column">
+        <label for="sleeve-length">Sleeve Length </label>
+        <select id="sleeve-length" name="sleeve-length">
+          <option value="">Select Sleeve Length</option>
+          <option value="short">Short</option>
+          <option value="long">Long $3.00</option>
+        </select>
+
+        <div class="form-group"></div>
+
+        <div class="form-group">
+          <label for="collar-type">Collar Type</label>
+          <select id="collar-type" name="collar-type">
+            <option value="">Select Collar Type</option>
+            <option value="round-neck">Round Neck</option>
+            <option value="v-neck">V-Neck</option>
+            <option value="polo-style">Polo style 1$</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="fit-type">Fit Type</label>
+          <select id="fit-type" name="fit-type">
+            <option value="">Select Fit Type</option>
+            <option value="men">Men</option>
+            <option value="women">Women</option>
+            <option value="youth">Youth</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="goalkeeper-kit">Add a Goalkeeper Kit?</label>
+          <select id="goalkeeper-kit" name="goalkeeper-kit">
+            <option value="">Select Option</option>
+            <option value="no">No</option>
+            <option value="yes">Yes</option>
+          </select>
+        </div>
+
+
+
+        <div class="form-group">
+            <label for="goalkeeper-jersey-design">Goalkeeper Jersey Design</label>
+            <select id="goalkeeper-jersey-design" name="goalkeeper-jersey-design">              
+              <option value="same">Same Design as Player Uniform</option>     
+            </select>
+          </div>
+
+
+
+
+
+      </div>
+
+      <!-- Right Column -->
+      <div class="form-column">
+        <div class="form-group">
+          <label for="team-logo">Team Logo</label>
+          <select id="team-logo" name="team-logo">
+            <option value="">Select Logo Style</option>
+            <option value="sublimated">Sublimated (Printed)</option>
+            <option value="embroidered">Embroidery $1.00</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="kit">Kit</label>
+          <select id="kit" name="kit">
+            <option value="full-kit">Full Kit</option>
+            <option value="shirt-only">Shirt Only</option>
+            
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="inside-collar-message">Inside Collar Message</label>
+          <select id="inside-collar-message" name="inside-collar-message">
+            <option value="">Select Message Type</option>
+            <option value="yes">Yes 2$</option>
+            <option value="no">No</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="goalkeeper-sleeve">Goalkeeper Sleeve</label>
+          <select id="goalkeeper-sleeve" name="goalkeeper-sleeve">
+            <option value="">Goalkeeper Sleeve</option>
+            <option value="long-sleeve">Long Sleeve</option>
+            <option value="short-sleeve">Short Sleeve</option>
+            <option value="long-sleeve-padded-elbows">Long Sleeve, Padded Elbows</option>
+          </select>
+        </div>
+
+
+        <div class="form-group">
+            <label for="shirt-sizes">Jersey color</label>
+            <select id="shirt-sizes" name="shirt-sizes">
+              <option value="yellow">Yellow</option>
+              <option value="Red">Red</option>
+              <option value="blue">Blue</option>
+              
+              
+              
+      
+            </select>
+          </div>
+
+
+
+        <!-- <div class="form-group">
+            <label for="shirt-sizes">Shirt Size</label>
+            <select id="shirt-sizes" name="shirt-sizes">
+              <option value="youth-xs">Youth XS</option>
+              <option value="youth-s">Youth S</option>
+              <option value="youth-m">Youth M</option>
+              <option value="youth-l">Youth L</option>
+              <option value="youth-xl">Youth XL</option>
+
+              <option value="adult-xs">Adult XS</option>
+              <option value="adult-s">Adult S</option>
+              <option value="adult-m">Adult M</option>
+              <option value="adult-l">Adult L</option>
+              <option value="adult-xl">Adult XL</option>
+              
+      
+            </select>
+          </div> -->
+
+
+      </div>
+
+      <!-- <div class="form-group submit-button">
+          <button type="submit">Submit</button>
+      </div> -->
+    </form>
+
+ <!-- FOOTER STARTS FORM HERE -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- SIZING FORM STARTS FROM HERE -->
+
+
+<p class="size-guide">Size Guide</p>
+
+<div class="team-form-container">
+    <form>
+        <table class="team-roster-table">
+            <thead>
+                <tr>
+                    <th>Name:</th>
+                    <th>Number:</th>
+                    <th>Shirt Size</th>
+                    <th>Short Size</th>
+                    <th>GK</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Repeatable Rows -->
+                <tr>
+                    <td><input type="text" class="fi-name" placeholder="--" ></td>
+                    <td><input type="text" class="fi-number" placeholder="--" ></td>
+                    <td>
+                        <select class="shirt-size">
+                            <option value="">--</option>
+                            <option value="youth-xs">Youth XS</option>
+                            <option value="youth-s">Youth S</option>
+                            <option value="youth-m">Youth M</option>
+                            <option value="youth-l">Youth L</option>
+                            <option value="youth-xl">Youth XL</option>
+              
+                            <option value="adult-xs">Adult XS</option>
+                            <option value="adult-s">Adult S</option>
+                            <option value="adult-m">Adult M</option>
+                            <option value="adult-l">Adult L</option>
+                            <option value="adult-xl">Adult XL</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select class="short-size">
+                            <option value="">--</option>
+                            <option value="youth-xs">Youth XS</option>
+                            <option value="youth-s">Youth S</option>
+                            <option value="youth-m">Youth M</option>
+                            <option value="youth-l">Youth L</option>
+                            <option value="youth-xl">Youth XL</option>
+              
+                            <option value="adult-xs">Adult XS</option>
+                            <option value="adult-s">Adult S</option>
+                            <option value="adult-m">Adult M</option>
+                            <option value="adult-l">Adult L</option>
+                            <option value="adult-xl">Adult XL</option>
+                        </select>
+                    </td>
+
+                   
+
+                    
+
+                    <td><input type="checkbox" class="goalkeeper-checkbox"></td>
+                </tr>
+
+
+                <tr>
+                    <td><input type="text" class="fi-name" placeholder="--" ></td>
+                    <td><input type="text" class="fi-number" placeholder="--" ></td>
+                    <td>
+                        <select class="shirt-size">
+                            <option value="">--</option>
+                            <option value="youth-xs">Youth XS</option>
+                            <option value="youth-s">Youth S</option>
+                            <option value="youth-m">Youth M</option>
+                            <option value="youth-l">Youth L</option>
+                            <option value="youth-xl">Youth XL</option>
+              
+                            <option value="adult-xs">Adult XS</option>
+                            <option value="adult-s">Adult S</option>
+                            <option value="adult-m">Adult M</option>
+                            <option value="adult-l">Adult L</option>
+                            <option value="adult-xl">Adult XL</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select class="short-size">
+                            <option value="">--</option>
+                            <option value="youth-xs">Youth XS</option>
+                            <option value="youth-s">Youth S</option>
+                            <option value="youth-m">Youth M</option>
+                            <option value="youth-l">Youth L</option>
+                            <option value="youth-xl">Youth XL</option>
+              
+                            <option value="adult-xs">Adult XS</option>
+                            <option value="adult-s">Adult S</option>
+                            <option value="adult-m">Adult M</option>
+                            <option value="adult-l">Adult L</option>
+                            <option value="adult-xl">Adult XL</option>
+                        </select>
+                    </td>
+
+                   
+
+                    
+
+                    <td><input type="checkbox" class="goalkeeper-checkbox"></td>
+                </tr>
+
+                <tr>
+                    <td><input type="text" class="fi-name" placeholder="--" ></td>
+                    <td><input type="text" class="fi-number" placeholder="--" ></td>
+                    <td>
+                        <select class="shirt-size">
+                            <option value="">--</option>
+                            <option value="youth-xs">Youth XS</option>
+                            <option value="youth-s">Youth S</option>
+                            <option value="youth-m">Youth M</option>
+                            <option value="youth-l">Youth L</option>
+                            <option value="youth-xl">Youth XL</option>
+              
+                            <option value="adult-xs">Adult XS</option>
+                            <option value="adult-s">Adult S</option>
+                            <option value="adult-m">Adult M</option>
+                            <option value="adult-l">Adult L</option>
+                            <option value="adult-xl">Adult XL</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select class="short-size">
+                            <option value="">--</option>
+                            <option value="youth-xs">Youth XS</option>
+                            <option value="youth-s">Youth S</option>
+                            <option value="youth-m">Youth M</option>
+                            <option value="youth-l">Youth L</option>
+                            <option value="youth-xl">Youth XL</option>
+              
+                            <option value="adult-xs">Adult XS</option>
+                            <option value="adult-s">Adult S</option>
+                            <option value="adult-m">Adult M</option>
+                            <option value="adult-l">Adult L</option>
+                            <option value="adult-xl">Adult XL</option>
+                        </select>
+                    </td>
+
+                   
+
+                    
+
+                    <td><input type="checkbox" class="goalkeeper-checkbox"></td>
+                </tr>
+
+                <tr>
+                    <td><input type="text" class="fi-name" placeholder="--" ></td>
+                    <td><input type="text" class="fi-number" placeholder="--" ></td>
+                    <td>
+                        <select class="shirt-size">
+                            <option value="">--</option>
+                            <option value="youth-xs">Youth XS</option>
+                            <option value="youth-s">Youth S</option>
+                            <option value="youth-m">Youth M</option>
+                            <option value="youth-l">Youth L</option>
+                            <option value="youth-xl">Youth XL</option>
+              
+                            <option value="adult-xs">Adult XS</option>
+                            <option value="adult-s">Adult S</option>
+                            <option value="adult-m">Adult M</option>
+                            <option value="adult-l">Adult L</option>
+                            <option value="adult-xl">Adult XL</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select class="short-size">
+                            <option value="">--</option>
+                            <option value="youth-xs">Youth XS</option>
+                            <option value="youth-s">Youth S</option>
+                            <option value="youth-m">Youth M</option>
+                            <option value="youth-l">Youth L</option>
+                            <option value="youth-xl">Youth XL</option>
+              
+                            <option value="adult-xs">Adult XS</option>
+                            <option value="adult-s">Adult S</option>
+                            <option value="adult-m">Adult M</option>
+                            <option value="adult-l">Adult L</option>
+                            <option value="adult-xl">Adult XL</option>
+                        </select>
+                    </td>
+
+                   
+
+                    
+
+                    <td><input type="checkbox" class="goalkeeper-checkbox"></td>
+                </tr>
+
+                <tr>
+                    <td><input type="text" class="fi-name" placeholder="--" ></td>
+                    <td><input type="text" class="fi-number" placeholder="--" ></td>
+                    <td>
+                        <select class="shirt-size">
+                            <option value="">--</option>
+                            <option value="youth-xs">Youth XS</option>
+                            <option value="youth-s">Youth S</option>
+                            <option value="youth-m">Youth M</option>
+                            <option value="youth-l">Youth L</option>
+                            <option value="youth-xl">Youth XL</option>
+              
+                            <option value="adult-xs">Adult XS</option>
+                            <option value="adult-s">Adult S</option>
+                            <option value="adult-m">Adult M</option>
+                            <option value="adult-l">Adult L</option>
+                            <option value="adult-xl">Adult XL</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select class="short-size">
+                            <option value="">--</option>
+                            <option value="youth-xs">Youth XS</option>
+                            <option value="youth-s">Youth S</option>
+                            <option value="youth-m">Youth M</option>
+                            <option value="youth-l">Youth L</option>
+                            <option value="youth-xl">Youth XL</option>
+              
+                            <option value="adult-xs">Adult XS</option>
+                            <option value="adult-s">Adult S</option>
+                            <option value="adult-m">Adult M</option>
+                            <option value="adult-l">Adult L</option>
+                            <option value="adult-xl">Adult XL</option>
+                        </select>
+                    </td>
+
+                   
+
+                    
+
+                    <td><input type="checkbox" class="goalkeeper-checkbox"></td>
+                </tr>
+
+                <tr>
+                    <td><input type="text" class="fi-name" placeholder="--" ></td>
+                    <td><input type="text" class="fi-number" placeholder="--" ></td>
+                    <td>
+                        <select class="shirt-size">
+                            <option value="">--</option>
+                            <option value="youth-xs">Youth XS</option>
+                            <option value="youth-s">Youth S</option>
+                            <option value="youth-m">Youth M</option>
+                            <option value="youth-l">Youth L</option>
+                            <option value="youth-xl">Youth XL</option>
+              
+                            <option value="adult-xs">Adult XS</option>
+                            <option value="adult-s">Adult S</option>
+                            <option value="adult-m">Adult M</option>
+                            <option value="adult-l">Adult L</option>
+                            <option value="adult-xl">Adult XL</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select class="short-size">
+                            <option value="">--</option>
+                            <option value="youth-xs">Youth XS</option>
+                            <option value="youth-s">Youth S</option>
+                            <option value="youth-m">Youth M</option>
+                            <option value="youth-l">Youth L</option>
+                            <option value="youth-xl">Youth XL</option>
+              
+                            <option value="adult-xs">Adult XS</option>
+                            <option value="adult-s">Adult S</option>
+                            <option value="adult-m">Adult M</option>
+                            <option value="adult-l">Adult L</option>
+                            <option value="adult-xl">Adult XL</option>
+                        </select>
+                    </td>
+
+                   
+
+                    
+
+                    <td><input type="checkbox" class="goalkeeper-checkbox"></td>
+                </tr>
+
+                <tr>
+                    <td><input type="text" class="fi-name" placeholder="--" ></td>
+                    <td><input type="text" class="fi-number" placeholder="--" ></td>
+                    <td>
+                        <select class="shirt-size">
+                            <option value="">--</option>
+                            <option value="youth-xs">Youth XS</option>
+                            <option value="youth-s">Youth S</option>
+                            <option value="youth-m">Youth M</option>
+                            <option value="youth-l">Youth L</option>
+                            <option value="youth-xl">Youth XL</option>
+              
+                            <option value="adult-xs">Adult XS</option>
+                            <option value="adult-s">Adult S</option>
+                            <option value="adult-m">Adult M</option>
+                            <option value="adult-l">Adult L</option>
+                            <option value="adult-xl">Adult XL</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select class="short-size">
+                            <option value="">--</option>
+                            <option value="youth-xs">Youth XS</option>
+                            <option value="youth-s">Youth S</option>
+                            <option value="youth-m">Youth M</option>
+                            <option value="youth-l">Youth L</option>
+                            <option value="youth-xl">Youth XL</option>
+              
+                            <option value="adult-xs">Adult XS</option>
+                            <option value="adult-s">Adult S</option>
+                            <option value="adult-m">Adult M</option>
+                            <option value="adult-l">Adult L</option>
+                            <option value="adult-xl">Adult XL</option>
+                        </select>
+                    </td>
+
+                   
+
+                    
+
+                    <td><input type="checkbox" class="goalkeeper-checkbox"></td>
+                </tr>
+
+                <tr>
+                    <td><input type="text" class="fi-name" placeholder="--" ></td>
+                    <td><input type="text" class="fi-number" placeholder="--" ></td>
+                    <td>
+                        <select class="shirt-size">
+                            <option value="">--</option>
+                            <option value="youth-xs">Youth XS</option>
+                            <option value="youth-s">Youth S</option>
+                            <option value="youth-m">Youth M</option>
+                            <option value="youth-l">Youth L</option>
+                            <option value="youth-xl">Youth XL</option>
+              
+                            <option value="adult-xs">Adult XS</option>
+                            <option value="adult-s">Adult S</option>
+                            <option value="adult-m">Adult M</option>
+                            <option value="adult-l">Adult L</option>
+                            <option value="adult-xl">Adult XL</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select class="short-size">
+                            <option value="">--</option>
+                            <option value="youth-xs">Youth XS</option>
+                            <option value="youth-s">Youth S</option>
+                            <option value="youth-m">Youth M</option>
+                            <option value="youth-l">Youth L</option>
+                            <option value="youth-xl">Youth XL</option>
+              
+                            <option value="adult-xs">Adult XS</option>
+                            <option value="adult-s">Adult S</option>
+                            <option value="adult-m">Adult M</option>
+                            <option value="adult-l">Adult L</option>
+                            <option value="adult-xl">Adult XL</option>
+                        </select>
+                    </td>
+
+                   
+
+                    
+
+                    <td><input type="checkbox" class="goalkeeper-checkbox"></td>
+                </tr>
+
+
+
+                <!-- Repeat this block for as many rows as needed -->
+            </tbody>
+        </table>
+    </form>
+</div>
+
+
+
+<!-- SIZING FORM ENDS HERE -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- FORM SECTION ENDS HERE -->
+
+   
+
+    <footer class="custom-footer">
+      <div class="footer-container">
+        <!-- First Div: Logo and Summary -->
+        <div class="footer-logo-summary">
+          <img
+            src="./assets/logo.png"
+            alt="Logo"
+            class="footer-logo"
+            style="max-width: 100px"
+          />
+          <p class="footer-summary">
+            CONNECT 767 unites professionals and business leaders to drive
+            growth.
+          </p>
+        </div>
+
+        <!-- Second Div: Quick Links -->
+        <div class="footer-quick-links">
+          <h4 class="footer-heading">Quick Links</h4>
+          <ul class="footer-links-list">
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">DIRECTORY</a></li>
+            <li><a href="#">SHOP</a></li>
+            <li><a href="#">CUSTOMIZABLE UNIFORMS</a></li>
+          </ul>
+        </div>
+
+        <!-- Third Div: Our Services -->
+        <div class="footer-services">
+          <h4 class="footer-heading">Our Services</h4>
+          <ul class="footer-links-list">
+            <li>
+              <a href="#"
+                ><i class="fa-solid fa-angles-right" style="font-size: 12px"
+                  >&nbsp;</i
+                >Professional Networking</a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><i class="fa-solid fa-angles-right" style="font-size: 12px"
+                  >&nbsp;</i
+                >Consulting Services</a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><i class="fa-solid fa-angles-right" style="font-size: 12px"
+                  >&nbsp;</i
+                >Workshops & Events</a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><i class="fa-solid fa-angles-right" style="font-size: 12px"
+                  >&nbsp;</i
+                >Partnership Programs</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <!-- Fourth Div: Information with Social Media Icons -->
+        <div class="footer-info">
+          <h4 class="footer-heading">Information</h4>
+          <ul class="footer-info-list">
+            <li>
+              <i class="fa-solid fa-location-dot"></i>&nbsp;&nbsp;New York, NY,
+              10001
+            </li>
+            <li>
+              <i class="fa-solid fa-envelope"></i> &nbsp;<a
+                href="mailto:info@connect767.com"
+                >info@connect767.com</a
+              >
+            </li>
+            <li>
+              <i class="fa-solid fa-phone"></i>&nbsp;&nbsp;Phone: 862-253-2076
+            </li>
+          </ul>
+          <!-- Social Media Icons with a Different Class Name -->
+          <div class="footer-social-media-icons">
+            <a href="#" class="social-icon"
+              ><img
+                src="./assets/fb.png"
+                alt="Facebook"
+                style="border-radius: 100%"
+            /></a>
+            <a href="#" class="social-icon"
+              ><img
+                src="./assets/twitter.png"
+                alt="Twitter"
+                style="border-radius: 100%"
+            /></a>
+            <a href="#" class="social-icon"
+              ><img
+                src="./assets/youtube.png"
+                alt="YouTube"
+                style="border-radius: 100%"
+            /></a>
+            <a href="#" class="social-icon"
+              ><img
+                src="./assets/Instagram.webp"
+                alt="Instagram"
+                style="border-radius: 100%"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Copyright Section -->
+    <div class="footer-copyright">
+      <p>&copy; Copyright 2024 NY Creative Studio All Rights Reserved</p>
+    </div>
+
+    <!-- FOOTER ENDS HERE -->
+
+    <!-- JAVASCRITP STARTS FROM HERE -->
+
+    <script>
+      // Show/hide tab content
+      function openTab(tabName) {
+        var i;
+        var x = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+        document.getElementById(tabName).style.display = "block";
+      }
+
+      // Select shirt and show it in the display area
+      function selectShirt(shirtSrc) {
+        document.getElementById("selected-shirt").src = shirtSrc;
+      }
+
+      // Select logo and make it draggable/resizable
+      function selectLogo(logoSrc) {
+        var logo = document.getElementById("selected-logo");
+        logo.src = logoSrc;
+        logo.style.display = "block";
+      }
+
+      // Update text display
+      function updateText() {
+        var text = document.getElementById("customText").value;
+        document.getElementById("text-display").innerText = text;
+      }
+
+      // Update color of the text
+      function updateColor(color) {
+        document.getElementById("text-display").style.color = color;
+      }
+
+      // Draggable functionality
+      dragElement(document.getElementById("logo-container"));
+
+      function dragElement(element) {
+        var pos1 = 0,
+          pos2 = 0,
+          pos3 = 0,
+          pos4 = 0;
+        element.onmousedown = dragMouseDown;
+
+        function dragMouseDown(e) {
+          e = e || window.event;
+          e.preventDefault();
+          pos3 = e.clientX;
+          pos4 = e.clientY;
+          document.onmouseup = closeDragElement;
+          document.onmousemove = elementDrag;
+        }
+
+        function elementDrag(e) {
+          e = e || window.event;
+          e.preventDefault();
+          pos1 = pos3 - e.clientX;
+          pos2 = pos4 - e.clientY;
+          pos3 = e.clientX;
+          pos4 = e.clientY;
+          element.style.top = element.offsetTop - pos2 + "px";
+          element.style.left = element.offsetLeft - pos1 + "px";
+        }
+
+        function closeDragElement() {
+          document.onmouseup = null;
+          document.onmousemove = null;
+        }
+      }
+
+      // Resize functionality for resizing handles
+      resizeElement(document.getElementById("logo-container"));
+
+      function resizeElement(element) {
+        var startX, startY, startWidth, startHeight;
+
+        const topLeft = element.querySelector(".top-left");
+        const topRight = element.querySelector(".top-right");
+        const bottomLeft = element.querySelector(".bottom-left");
+        const bottomRight = element.querySelector(".bottom-right");
+
+        // Handle resizing from bottom-right corner
+        bottomRight.addEventListener("mousedown", function (e) {
+          e.preventDefault();
+          startX = e.clientX;
+          startY = e.clientY;
+          startWidth = parseInt(
+            document.defaultView.getComputedStyle(element).width,
+            10
+          );
+          startHeight = parseInt(
+            document.defaultView.getComputedStyle(element).height,
+            10
+          );
+          document.documentElement.addEventListener(
+            "mousemove",
+            doDragBottomRight,
+            false
+          );
+          document.documentElement.addEventListener("mouseup", stopDrag, false);
+        });
+
+        function doDragBottomRight(e) {
+          element.style.width = startWidth + e.clientX - startX + "px";
+          element.style.height = startHeight + e.clientY - startY + "px";
+        }
+
+        // Handle resizing from top-left corner
+        topLeft.addEventListener("mousedown", function (e) {
+          e.preventDefault();
+          startX = e.clientX;
+          startY = e.clientY;
+          startWidth = parseInt(
+            document.defaultView.getComputedStyle(element).width,
+            10
+          );
+          startHeight = parseInt(
+            document.defaultView.getComputedStyle(element).height,
+            10
+          );
+          document.documentElement.addEventListener(
+            "mousemove",
+            doDragTopLeft,
+            false
+          );
+          document.documentElement.addEventListener("mouseup", stopDrag, false);
+        });
+
+        function doDragTopLeft(e) {
+          element.style.width = startWidth - (e.clientX - startX) + "px";
+          element.style.height = startHeight - (e.clientY - startY) + "px";
+          element.style.left = element.offsetLeft + (e.clientX - startX) + "px";
+          element.style.top = element.offsetTop + (e.clientY - startY) + "px";
+        }
+
+        function stopDrag() {
+          document.documentElement.removeEventListener(
+            "mousemove",
+            doDragBottomRight,
+            false
+          );
+          document.documentElement.removeEventListener(
+            "mousemove",
+            doDragTopLeft,
+            false
+          );
+          document.documentElement.removeEventListener(
+            "mouseup",
+            stopDrag,
+            false
+          );
+        }
+      }
+
+      // Update the text content
+      function updateText() {
+        var text = document.getElementById("customText").value;
+        document.getElementById("text-display").innerText = text;
+      }
+
+      // Make the text draggable
+      dragElement(document.getElementById("text-display"));
+
+      function dragElement(element) {
+        var pos1 = 0,
+          pos2 = 0,
+          pos3 = 0,
+          pos4 = 0;
+        element.onmousedown = dragMouseDown;
+
+        function dragMouseDown(e) {
+          e = e || window.event;
+          e.preventDefault();
+          // Get the initial mouse cursor position
+          pos3 = e.clientX;
+          pos4 = e.clientY;
+          document.onmouseup = closeDragElement;
+          document.onmousemove = elementDrag;
+        }
+
+        function elementDrag(e) {
+          e = e || window.event;
+          e.preventDefault();
+          // Calculate the new cursor position
+          pos1 = pos3 - e.clientX;
+          pos2 = pos4 - e.clientY;
+          pos3 = e.clientX;
+          pos4 = e.clientY;
+          // Set the element's new position
+          element.style.top = element.offsetTop - pos2 + "px";
+          element.style.left = element.offsetLeft - pos1 + "px";
+        }
+
+        function closeDragElement() {
+          // Stop moving when the mouse button is released
+          document.onmouseup = null;
+          document.onmousemove = null;
+        }
+      }
+    </script>
+  </body>
+</html>
